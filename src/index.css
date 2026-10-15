@@ -1,0 +1,33 @@
+:root {
+  --bs-body-font-family: 'Inter', Arial, sans-serif;
+  --bs-body-bg: #f5f4f1;
+  --bs-body-color: #1a1a1a;
+  --bs-border-color: #e7e5e0;
+  --bs-secondary-color: #6b6b6b;
+  --bs-border-radius: 8px;
+  --bs-border-radius-lg: 12px;
+  --pm-accent: #d4461f;
+  --pm-accent-hover: #b83a17;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--pm-accent);
+  --bs-btn-border-color: var(--pm-accent);
+  --bs-btn-hover-bg: var(--pm-accent-hover);
+  --bs-btn-hover-border-color: var(--pm-accent-hover);
+  --bs-btn-active-bg: var(--pm-accent-hover);
+  --bs-btn-active-border-color: var(--pm-accent-hover);
+  --bs-btn-disabled-bg: #e7e5e0;
+  --bs-btn-disabled-border-color: #e7e5e0;
+  --bs-btn-disabled-color: #6b6b6b;
+  --bs-btn-focus-shadow-rgb: 212, 70, 31;
+}
+
+.text-bg-accent {
+  background-color: var(--pm-accent) !important;
+  color: #fff !important;
+}
+
+.object-fit-cover {
+  aspect-ratio: 320 / 220;
+}
